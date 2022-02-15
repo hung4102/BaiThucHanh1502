@@ -1,12 +1,13 @@
-
 import java.util.Scanner;
+
+import static java.lang.System.*;
 
 public class baiThucHanh1502 {
     public static void main(String[] args) {
         int n, soDu, tong = 0;
-        Scanner scanner = new Scanner(System.in);
+        var scanner = new Scanner(in);
 
-        System.out.println("Nhập vào số nguyên dương bất kỳ: ");
+        out.println("Nhập vào số nguyên dương bất kỳ: ");
         n = scanner.nextInt();
 
         while (n > 0) {
@@ -15,6 +16,6 @@ public class baiThucHanh1502 {
             tong += soDu;
         }
 
-        System.out.println("Tổng các chữ số = " + tong);
+        out.println("Tổng các chữ số = " + tong);
     }
 }
